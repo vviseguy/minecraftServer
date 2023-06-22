@@ -4,7 +4,7 @@ echo Pulling updates from GitHub
 git pull
 echo \n
 
-start cmd -c ./run.bat && {
+start cmd -c "./run.bat" && {
 echo \n
 echo Loading updates to Github
 echo \n
