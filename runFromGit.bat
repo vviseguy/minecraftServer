@@ -4,8 +4,8 @@ echo Pulling updates from GitHub
 git pull
 echo
 
-cmd -k ./run.bat
-
+start cmd -k run.bat
+pause
 echo
 echo Loading updates to Github
 echo
