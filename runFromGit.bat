@@ -2,12 +2,12 @@
 
 echo Pulling updates from GitHub
 git pull
-echo 
+echo \n
 
 start cmd -c ./run.bat && {
-echo 
+echo \n
 echo Loading updates to Github
-echo 
+echo \n
 git add .
 git commit -m "Gameplay hosted by %USERNAME% on %DATE%"
 git push
